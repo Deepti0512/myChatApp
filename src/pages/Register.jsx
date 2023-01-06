@@ -54,6 +54,7 @@ const Register = () => {
         });
       });
     } catch (err) {
+      console.log(err);
       setErr(true);
       setLoading(false);
     }
